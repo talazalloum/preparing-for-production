@@ -8,6 +8,6 @@ describe("Form Tests", () => {
 
     cy.get("button").click();
 
-    cy.contains("error");
+    cy.contains("Please fill out this field");
   });
 });

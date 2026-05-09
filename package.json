@@ -4,7 +4,8 @@
   "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
 
   "scripts": {
-  "gulp": "gulp"
+  "gulp": "gulp",
+  "test": "mocha test/shuffle.js"
 },
   "keywords": [],
   "author": "",
